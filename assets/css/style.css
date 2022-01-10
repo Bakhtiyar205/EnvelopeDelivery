@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: rgb(227, 255, 253);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.envelope {
+    height: 70vh;
+    width:30vw;
+    background-color: white;
+    margin:120px 100px;
+}
+
+
+/* Weeding */
+.wedding-text{
+    font-family:'Licorice', cursive;
+    text-align: center;
+    transform: rotate(345deg);
+    margin-top: 20px;
+    font-size: 70px;
+    height: 50%;
+}
+
+.wedding-text p{
+    font-stretch: expanded;
+    transform: scaleX(2.3);
+}
+
+/* Invitation */
+
+.invitation-text {
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+
+.invitation-text .shrink-px {
+    font-size: 18px;
+}
+
+.invitation-text h2,
+.invitation-text h3,
+.invitation-text p {
+    padding: 10px 0;
+}
